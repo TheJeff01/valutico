@@ -1,0 +1,196 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+}
+.navigationHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 108px;
+}
+.logo{
+    width: 169.846px;
+    height: 23px;
+}
+.navBar li{
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+}
+.navBar .active a{
+    color: #065666;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navBar li a{
+    color: #636363;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+} 
+
+.greenButton{
+    border-radius: 16px;
+    border-color: #6FC247;
+    background: #6FC247;
+    display: flex;
+    padding: 24px 40px;
+    align-items: flex-end;
+    gap: 16px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.whiteButton{
+    border-radius: 16px;
+    border-color: white;
+    background: white;
+    display: flex;
+    padding: 24px 40px;
+    align-items: flex-end;
+    gap: 16px;
+    color: #6FC247;
+    font-size: 20px;
+    font-weight: 700;
+}
+.container{
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 100px;
+}
+.container h1{
+    color: #373737;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+}
+.container p{
+    color: #373737;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-top: 32px;
+}
+.conditon{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.codingImg{
+    margin-top: 64px;
+}
+.container h2{
+    color: #373737;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 117px;
+}
+.container h3{
+    color: #373737;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.frames{
+    display: grid;
+    background: #F9F9F9;
+    grid-template-columns: 20% 24% 24% 24%;
+    justify-content: center;
+    grid-row-gap: 1px;
+    grid-column-gap: 9px;
+}
+.whyValutico{
+    background: black;
+    color: #D7D7D7;
+    padding: 72px 103px;
+}
+.whyValutico h1{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+}
+.whyValutico p{
+    margin-bottom: 64px;
+    width: 700px;
+}
+.reasons{
+    display: flex;
+    justify-content: space-between;
+}
+.whyValutico .reasons .reason p{
+    width: 340px;
+}
+.whyValutico .reasons .reason h1{
+    color: #FFF;
+    font-size: 24px;
+    font-family: Manrope;
+    font-weight: 800;
+}
+section{
+    padding: 80px 104px;
+}
+.valuations{
+    display: flex;
+    justify-content: space-evenly;
+}
+.valu h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.valu p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.value{
+    margin-top: 47px;
+    padding: 32px;
+}
+.value h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+.value p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.values{
+    padding: 32px;
+}
+.values h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+.values p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.gB{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 189px;
+}
